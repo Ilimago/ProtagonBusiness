@@ -1,0 +1,302 @@
+body{
+	font-family: arial !important;
+}
+
+.container .mar{
+	margin-top: 50px;
+}
+.nw-panel{
+	min-height: 500px;
+}
+
+.nw-login{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: arial;
+}
+
+.nw-login h1{
+	font-size: 16px;
+}
+
+.nw-login .panel{
+	padding-right: 80px;
+}
+
+form label{
+	font-weight: normal;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+form label span{
+	font-size: 14px;
+	color: #f00;
+}
+
+.frm-container{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.frm-container div{
+	margin-bottom: 10px;
+}
+
+.input-sm{
+	height: 25px;
+}
+
+.nw-panel{
+	border-left: solid 1px #e5e5e5;
+	font-size: 12px;
+	color: #333;
+}
+
+.nw-panel h1{
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+}
+
+.nw-panel h2{
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+}
+
+.nw-panel h3{
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #000;
+	font-weight: 550;
+}
+
+.colored{
+	color: #ff991a !important;
+}
+
+.prede-select{
+	height: 25px !important;
+	width: 80%
+}
+
+
+.nw-table-btn tr td{
+	color:#666;
+}
+
+.nw-table-btn tr td:first-child{
+	width: 20px;
+}
+
+.nw-table-btn tr td:first-child a{
+	color: #ff991a;
+}
+
+.nw-panel p{
+	color: #666;
+}
+
+.nw-panel p a{
+	color: #ff991a;
+	font-size: 11px;
+}
+
+.ul-data{
+	list-style: none;
+	color: #777;
+}
+
+.ul-data li:before{
+	content: "◘  ";
+	color:#ff991a;
+}
+/* Manue principal del contenedor */
+.nw-menu{
+	margin-top: 10px;
+}
+
+.nw-menu li{
+	list-style: none;
+	padding: 12px 0;
+	font-size: 12px;
+	border-bottom: solid 1px #e5e5e5;
+	padding-left: 15px;
+}
+
+.nw-menu li a{
+	color: #333;
+	width: 100%;
+	display: block;
+}
+
+.nw-menu li:first-child{
+	color: #666;
+	font-weight: bold;
+	font-size: 12px;
+	border-bottom: solid 2px #e5e5e5;
+}
+
+.nw-menu li:hover{
+	border-bottom: solid 1px #ff991a;
+}
+
+.nw-menu li:first-child:hover{
+	border-bottom: solid 2px #e5e5e5;
+}
+
+.nw-menu li i{
+	float: right;
+	margin-right: 20px;
+	display: none;
+}
+
+.nw-menu .active a{
+	color: #ff991a;
+}
+
+.nw-menu .active i{
+	display: block;
+}
+
+
+/* Manue principal del contenedor */
+
+
+.men-pedidos{
+	width: 100%;
+	border-bottom: solid 1px #ff991a;
+	list-style: none;
+	text-align: right;
+	padding-bottom: 3px;
+}
+
+.men-pedidos li{
+	display: inline;
+	padding: 4px 60px;	
+	color: #ff991a;
+	border:solid 1px #ff991a;
+}
+
+.men-pedidos li:first-child{
+	-webkit-border-top-left-radius: 7px;
+	-moz-border-radius-topleft:7px;
+	border-top-left-radius: 7px;
+}
+
+.men-pedidos li:last-child{
+	-webkit-border-top-right-radius: 7px;
+	-moz-border-radius-topright:7px;
+	border-top-right-radius: 7px;
+}
+
+.men-pedidos li a{
+	color: #ff991a;
+	/*width: 100%;*/
+	/*display:block;*/
+}
+
+.men-pedidos .active{
+	color: #fff;
+	border:solid 1px #ff991a;
+	background-color: #ff991a;
+}
+
+.men-pedidos .active a{
+	color: #fff;
+	border:solid 1px #ff991a;
+	background-color: #ff991a;
+}
+
+.tbl-pedidos tr{
+	border-bottom: solid 1px #eee;
+}
+
+.tbl-pedidos thead{
+	height: 70px;
+	text-transform: uppercase;
+	border-top: solid 1px #f4f4f4;
+	background-color: #f4f4f4;
+
+}
+
+.tbl-pedidos tbody tr:hover{
+	background-color: #fafafa;
+}
+
+.tbl-pedidos tr td a{
+	color: #666;
+}
+
+.tbl-pedidos tr td a:hover{
+	color: #ff991a;
+}
+
+.tbl-pedidos tfoot tr:first-child{
+	border-top: solid 2px #ccc;
+}
+
+.estatus{
+	border-top: solid 7px #bbb;
+	padding-top: 7px;
+	color: #bbb;
+	text-align: center;
+}
+
+.active_es{
+	border-top: solid 7px #ff991a;
+	color: #ff991a;
+}
+
+.border-top{
+	border-top: solid 1px #eee;
+}
+
+.custom-input-file {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-input-file .input-file {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 10000px;
+    border: 10000px solid transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+    cursor: pointer;
+}
+
+.custom-input-file + span{
+	padding: 25%;
+}
+
+.estatus div{
+    border-bottom: solid 1px #e4e4e4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    text-align: left;
+}
+.estatus div p{
+    padding:0 !important;
+    margin:0 !important;
+    color: #000;
+}
+.estatus div span{
+    font-size: 10px;
+}
+
+.br-1{margin-top: 10px}
+.br-2{margin-top: 20px}
+.br-3{margin-top: 30px}
+.br-4{margin-top: 40px}
+.br-5{margin-top: 50px}
+.br-6{margin-top: 60px}

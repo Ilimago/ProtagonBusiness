@@ -1,0 +1,4 @@
+[18-Aug-2016 23:15:54 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ilimagoc/public_html/blog-admin/sc-post/model/post.class.php on line 187
+[18-Aug-2016 23:15:54 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ilimagoc/public_html/blog-admin/sc-post/model/post.class.php on line 187
+[03-Nov-2016 22:27:39 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ilimagoc/public_html/blog-admin/sc-post/model/post.class.php on line 187
+[03-Nov-2016 22:27:39 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ilimagoc/public_html/blog-admin/sc-post/model/post.class.php on line 187
